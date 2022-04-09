@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css?family=Outfit:400,300,500");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registration {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.overlap-group3 {
+  background-size: 100% 100%;
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.sns-login-3 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 42px;
+  left: 819px;
+  min-width: 283px;
+  position: absolute;
+  top: 820px;
+  transition: all 0.2s ease;
+}
+
+.sns-login-3:hover,
+.sns-login-2:hover,
+.sns-login-1:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px 
+rgba(0, 0, 0, 0.2);
+}
+
+.overlap-group {
+  align-items: center;
+  background-color: var(--gallery);
+  border-radius: 10px;
+  display: flex;
+  height: 42px;
+  justify-content: flex-end;
+  min-width: 281px;
+  padding: 11.5px 72.9px;
+}
+
+.logo {
+  align-self: flex-end;
+  height: 18px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.sign-in-with-google {
+  height: 16px;
+  letter-spacing: 0;
+  margin-bottom: 1.46px;
+  margin-left: 7px;
+  width: 110px;
+}
+
+.sns-login-2 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 42px;
+  left: 820px;
+  min-width: 283px;
+  position: absolute;
+  top: 763px;
+  transition: all 0.2s ease;
+}
+
+.overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  border-radius: 10px;
+  display: flex;
+  height: 42px;
+  justify-content: flex-end;
+  min-width: 281px;
+  padding: 11.6px 65px;
+}
+
+.logo-1,
+.icon-twitter {
+  height: 18px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.sign-in-with-facebook {
+  height: 16px;
+  letter-spacing: 0;
+  margin-left: 7px;
+  margin-top: 0;
+  width: 125px;
+}
+
+.sns-login-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 42px;
+  left: 819px;
+  min-width: 283px;
+  position: absolute;
+  top: 707px;
+  transition: all 0.2s ease;
+}
+
+.twitter-container {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  border-radius: 10px;
+  display: flex;
+  height: 42px;
+  justify-content: flex-end;
+  min-width: 281px;
+  padding: 11.8px 73.9px;
+}
+
+.sign-in-with-twitter {
+  height: 16px;
+  letter-spacing: 0;
+  margin-left: 7px;
+  margin-top: 0;
+  width: 108px;
+}
+
+.or-sign-in-with-social-media {
+  left: 875px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 653px;
+  width: 170px;
+}
+
+.divider {
+  height: 1px;
+  left: 798px;
+  position: absolute;
+  top: 618px;
+  width: 324px;
+}
+
+.already-have-an-account-sign-in {
+  color: var(--black);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  left: 858px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 559px;
+  width: 205px;
+}
+
+.span1 {
+  color: 
+#f1338a;
+  font-weight: 300;
+}
+
+.title {
+  left: 901px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 252px;
+  width: 119px;
+}
+
+.logo-2 {
+  height: 50px;
+  left: 935px;
+  position: absolute;
+  top: 192px;
+  width: 50px;
+}
+
+.rectangle-1 {
+  background-color: var(--white);
+  border-radius: 30px;
+  height: 844px;
+  left: 624px;
+  position: absolute;
+  top: 118px;
+  width: 672px;
+}
+
+.username {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 714px;
+  min-height: 67px;
+  position: absolute;
+  top: 430px;
+  width: 494px;
+}
+
+.password {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 21px;
+  width: 79px;
+}
+
+.rectangle-3 {
+  background-color: var(--gallery);
+  border-radius: 10px;
+  cursor: pointer;
+  height: 42px;
+  margin-top: 4px;
+  transition: all 0.2s ease;
+  width: 492px;
+}
+
+.rectangle-3:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px 
+rgba(0, 0, 0, 0.2);
+}
+
+.username.username-1 {
+  top: 353px;
+}
