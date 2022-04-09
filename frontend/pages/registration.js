@@ -1,6 +1,6 @@
 import HeadLayout from '../components/headLayout'
 
-export default function Login() {
+export default function Registration() {
     return (
         <HeadLayout>
         </HeadLayout>
