@@ -269,7 +269,7 @@ format_data(partifile,curuser,overuser,jjj)
     }
     else{
         for(let n=0; n<org.length;n++){
-            inputs.push([distance[n],feef[n],ptype[n]])
+            inputs.push([distance[n],feef[n],ptype[n],themed])
             if(non_interested.includes(org[n])){
                 ouput.push(0);
             }
