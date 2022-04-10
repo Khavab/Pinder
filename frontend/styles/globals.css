@@ -1,0 +1,385 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Outfit:400,300,500");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registration {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.overlap-group4 {
+  background-size: 100% 100%;
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.sns-login-3 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 42px;
+  left: 819px;
+  min-width: 283px;
+  position: absolute;
+  top: 852px;
+  transition: all 0.2s ease;
+}
+
+.sns-login-3:hover,
+.sns-login-2:hover,
+.sns-login-1:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px 
+rgba(0, 0, 0, 0.2);
+}
+
+.overlap-group {
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  height: 42px;
+  justify-content: flex-end;
+  min-width: 281px;
+  padding: 11.5px 72.9px;
+}
+
+.logo-1 {
+  align-self: flex-end;
+  height: 18px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.sign-in-with-google {
+  height: 16px;
+  letter-spacing: 0;
+  margin-bottom: 1.46px;
+  margin-left: 7px;
+  width: 110px;
+}
+
+.sns-login-2 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 42px;
+  left: 819px;
+  min-width: 283px;
+  position: absolute;
+  top: 795px;
+  transition: all 0.2s ease;
+}
+
+.overlap-group1 {
+  align-items: flex-start;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  height: 42px;
+  justify-content: flex-end;
+  min-width: 281px;
+  padding: 11.6px 65px;
+}
+
+.logo {
+  height: 18px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.sign-in-with-facebook {
+  height: 16px;
+  letter-spacing: 0;
+  margin-left: 7px;
+  margin-top: 0;
+  width: 125px;
+}
+
+.sns-login-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 42px;
+  left: 819px;
+  min-width: 283px;
+  position: absolute;
+  top: 739px;
+  transition: all 0.2s ease;
+}
+
+.overlap-group2 {
+  align-items: flex-start;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  height: 42px;
+  justify-content: flex-end;
+  min-width: 281px;
+  padding: 11.8px 73.9px;
+}
+
+.sign-in-with-twitter {
+  height: 16px;
+  letter-spacing: 0;
+  margin-left: 7px;
+  margin-top: 0;
+  width: 108px;
+}
+
+.or-sign-in-with-social-media {
+  left: 875px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 690px;
+  width: 170px;
+}
+
+.divider {
+  height: 1px;
+  left: 798px;
+  position: absolute;
+  top: 660px;
+  width: 324px;
+}
+
+.already-have-an-account-sign-in {
+  color: var(--black);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  left: 858px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 613px;
+  width: 205px;
+}
+
+.span1 {
+  color: 
+#f1338a;
+  font-weight: 300;
+}
+
+.overlap-group3 {
+  align-items: center;
+  background-size: 100% 100%;
+  display: flex;
+  height: 35px;
+  justify-content: flex-end;
+  left: 910px;
+  min-width: 100px;
+  padding: 0 24px;
+  position: absolute;
+  top: 548px;
+}
+
+.sign-up {
+  height: 19px;
+  letter-spacing: 0;
+  min-width: 51px;
+}
+
+.terms-and-policy {
+  align-items: flex-end;
+  display: flex;
+  height: 20px;
+  left: 774px;
+  min-width: 374px;
+  position: absolute;
+  top: 493px;
+}
+
+.rectangle-4 {
+  background-color: lightgray;
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.by-clicking-sign-up {
+  height: 19px;
+  letter-spacing: 0;
+  margin-left: 10px;
+  width: 342px;
+}
+
+.span0 {
+  color: black;
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-l);
+  font-weight: 300;
+}
+
+.span1-1 {
+  color: 
+#2e2fc8;
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-l);
+  font-weight: 300;
+}
+
+.title {
+  left: 901px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 252px;
+  width: 119px;
+}
+
+.logo-2 {
+  height: 50px;
+  left: 935px;
+  position: absolute;
+  top: 192px;
+  width: 50px;
+}
+
+.rectangle-1 {
+  background-color: white;
+  border-radius: 30px;
+  height: 844px;
+  left: 624px;
+  position: absolute;
+  top: 118px;
+  width: 672px;
+}
+
+.password {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 714px;
+  min-height: 67px;
+  position: absolute;
+  top: 410px;
+  width: 494px;
+}
+
+.password-1 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 21px;
+  width: 79px;
+}
+
+.rectangle-3 {
+  background-color: lightgray;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 42px;
+  margin-top: 4px;
+  transition: all 0.2s ease;
+  width: 492px;
+}
+
+.rectangle-3:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px 
+rgba(0, 0, 0, 0.2);
+}
+
+.password.username {
+  top: 333px;
+}
+
+
+
+:root {
+    --black: 
+  rgba(0, 0, 0, 1);
+    --gallery: 
+  rgba(240, 240, 240, 1);
+    --white: 
+  rgba(255, 255, 255, 1);
+  
+    --font-size-m: 13px;
+    --font-size-l: 15px;
+    --font-size-xl: 30px;
+  
+    --font-family-outfit: "Outfit";
+  }
+  
+  
+  
+  .outfit-light-black-13px {
+    color: var(--black);
+    font-family: var(--font-family-outfit);
+    font-size: var(--font-size-m);
+    font-weight: 300;
+    font-style: normal;
+  }
+  .outfit-medium-black-13px {
+    color: var(--black);
+    font-family: var(--font-family-outfit);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .outfit-medium-black-30px {
+    color: var(--black);
+    font-family: var(--font-family-outfit);
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .outfit-medium-white-15px {
+    color: var(--white);
+    font-family: var(--font-family-outfit);
+    font-size: var(--font-size-l);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .outfit-medium-black-15px {
+    color: var(--black);
+    font-family: var(--font-family-outfit);
+    font-size: var(--font-size-l);
+    font-weight: 500;
+    font-style: normal;
+  }
