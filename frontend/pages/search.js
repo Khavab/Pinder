@@ -1,3 +1,4 @@
+import React from "react";
 import Content from "../components/infiniteScrollComp";
 
 export default function Search(props) {
