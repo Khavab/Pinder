@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 
 const Content = ({ data }) => {
-  const [posts, setPosts] = useState(data);
-  const [hasMore, setHasMore] = useState(true);
+    const [posts, setPosts] = useState(data);
+    const [hasMore, setHasMore] = useState(true);
 
-  const getMorePost = async () => {
+    const getMorePost = async () => {
     const res = await fetch(
-      `https://jsonplaceholder.typicode.com/todos?_start=${posts.length}&_limit=10`
+      `https://jsonplaceholder.typicode.com/todos?_start=${posts.length}&_limit=5`
     );
     const newPosts = await res.json();
     setPosts((post) => [...post, ...newPosts]);
@@ -23,11 +23,10 @@ const Content = ({ data }) => {
         endMessage={<h4>Nothing more to show</h4>}
       >
         {posts.map((data) => (
-          <div key={data.id}>
+          <div key={data.name}>
             <div className="back">
-              <strong> {data.id}</strong> {data.title}
+              <strong> {data.name}</strong> {data.time}
             </div>
-            {data.completed}
           </div>
         ))}
       </InfiniteScroll>

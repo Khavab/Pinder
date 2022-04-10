@@ -1,22 +1,26 @@
 import Content from "../components/infiniteScrollComp";
 
 export default function Search(props) {
-  return (
-    <>
-      <div>
-        <Content data={props.data} />
-      </div>
-    </>
-  );
+    return (
+        <>
+        <div>
+            <Content data={props.data} />
+        </div>
+        </>
+    );
 }
 
 export const getStaticProps = async () => {
-  const data = await fetch(
-    "https://jsonplaceholder.typicode.com/todos?_limit=10"
-  ).then((response) => response.json());
-  return {
-    props: { data }
-  };
+//   const data = await fetch(
+//     "https://jsonplaceholder.typicode.com/todos?_limit=50"
+//   ).then((response) => response.json());
+    const data = await fetch(
+        '../data/party_test.json'
+    ).then((response) => response.json());
+    
+    return {
+        props: { data }
+    };
 };
 
 // import React, { useEffect, useState} from "react";
