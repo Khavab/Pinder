@@ -1,1 +1,3 @@
-[{"name" : "party1", "org" : "sps", "type" : "apar", "time": 5, "address" : "123 something st", "fee" : [15, 10]}]
+[{"name" : "party1", "org" : "sps", "type" : "apar", "time": 5, "address" : "123 something st", "fee" : [15, 10]}, 
+{"name" : "party2", "org" : "sdfs", "type" : "apar", "time": 7, "address" : "123 something st", "fee" : [15, 10]},
+{"name" : "party3", "org" : "sfgdfs", "type" : "apar", "time": 3, "address" : "123 something st", "fee" : [15, 10]}]
